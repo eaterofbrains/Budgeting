@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.206" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout3"
+        android:id="@+id/budgetNameLayout"
         android:layout_width="336dp"
         android:layout_height="56dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,13 +78,14 @@
         app:layout_constraintVertical_bias="0.305">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/changeBudgetName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/changeName" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/targetExpInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/currentTarget"
@@ -111,7 +112,7 @@
         app:layout_constraintVertical_bias="0.696" />
 
     <Button
-        android:id="@+id/delete"
+        android:id="@+id/deleteBudget"
         android:layout_width="136dp"
         android:layout_height="46dp"
         android:background="@color/cardBackground"
@@ -126,7 +127,7 @@
         app:layout_constraintVertical_bias="0.812" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout4"
+        android:id="@+id/budgetAmountLayout"
         android:layout_width="327dp"
         android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,6 +138,7 @@
         app:layout_constraintVertical_bias="0.541">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/changeBudgetAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/changeTarget"
@@ -144,7 +146,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/nameDemo"
+        android:id="@+id/currentName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/currentNameDemo"
@@ -156,7 +158,7 @@
         app:layout_constraintVertical_bias="0.257" />
 
     <TextView
-        android:id="@+id/targetDemo"
+        android:id="@+id/currentTarget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/currentTargetDemo"

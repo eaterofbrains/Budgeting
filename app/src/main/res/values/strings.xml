@@ -40,4 +40,7 @@
 
     <string name="navigationBurger">Navigate</string>
 
+    <!--other hardcoded variables-->
+    <string name = "textView">TextView</string>
+
 </resources>
